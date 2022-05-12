@@ -1,7 +1,5 @@
 """Snake, classic arcade game.
-
 Exercises
-
 1. How do you make the snake faster or slower?
 2. How can you make the snake go around the edges?
 3. How would you move the food?
@@ -9,7 +7,8 @@ Exercises
 """
 
 from random import randrange
-from turtle import *
+from turtle import update, clear, ontimer, setup, hideturtle, tracer
+from turtle import listen, onkey, done
 
 from freegames import square, vector
 
